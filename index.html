@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendiendo HTML</title>
+    <title>Ecommerce - Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 
     <header>
-        <h1>Tienda de Muebles</h1>
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
     </header>
     
-    <nav>
+    <nav class="nav-principal">
         <a href="index.html">Inicio</a>
         <a href="nosotros.html">Nosotros</a>
         <a href="tienda.html">Tienda</a>
@@ -22,7 +24,8 @@
     </nav>
 
     <section>
-        <h2>Categorias de Producto</h2>
+        
+        <h2>Categorías de <span>Producto</span></h2>
 
         <div>
             <img src="img/categoria1.jpg" alt="Imagen Categoria"/>
@@ -41,7 +44,7 @@
         
     </section>
 
-    <section>
+    <section class="sobre-nosotros">
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -121,6 +124,7 @@
                     labore repellat laborum repudiandae perferendis nisi rem tempora. Corporis!</p>
                     <p>$10000</p>
 
+
                     <a href="#">Agregar al Carrito</a>
                 </div> <!-- Info Producto -->
             </div> <!-- Producto -->
@@ -147,7 +151,7 @@
         <div>
             <h3>Categorias</h3>
 
-            <nav>
+            <nav class="navegacion">
                 <a href="">Cocina</a>
                 <a href="">Oficina</a>
                 <a href="">Jardín</a>
@@ -158,7 +162,7 @@
 
         <div>
             <h3>Sobre Nosotros</h3>
-            <nav>
+            <nav class="navegacion">
                 <a href="">Nuestra Historia</a>
                 <a href="">Misión, Visión y Valores</a>
                 <a href="">Carreras</a>
